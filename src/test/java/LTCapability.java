@@ -15,8 +15,8 @@ public class LTCapability {
     capabilities1.addProperty("browserName", "Chrome"); // Browsers allowed: `Chrome`, `MicrosoftEdge`, `pw-chromium`, `pw-firefox` and `pw-webkit`
     capabilities1.addProperty("browserVersion", "latest");
     ltOptions1.addProperty("platform", "Windows 10");
-    ltOptions1.addProperty("name", "Playwright HyperExecute Test");
-    ltOptions1.addProperty("build", "Playwright HyperExecute Build");
+    ltOptions1.addProperty("name", "Playwright HyperExecute Test Project");
+    ltOptions1.addProperty("build", "Playwright HyperExecute Build Project");
     ltOptions1.addProperty("user", user);
     ltOptions1.addProperty("accessKey", accessKey);
     ltOptions1.addProperty("video", true);
